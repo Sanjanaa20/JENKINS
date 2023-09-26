@@ -23,6 +23,6 @@ Default installation in /var/lib/jenkins and to login get the password by /secre
 
 | S | Weather | Name | Last success | Last failure | Duration |
 | :---         |     :---:      |          ---: | ---: | ---:| ---:|
-| git status   | git status     | Sanju |3.6 seconds | | Run
-| git diff     | git diff       | Krish |4.2 seconds | | Run
+| ✔ |☀︎ |Sanju |3.6 seconds | | Run
+| ✔| ☀︎|Krish |4.2 seconds | | Run
 
