@@ -26,3 +26,16 @@ Default installation in /var/lib/jenkins and to login get the password by /secre
 | ✔ |☀︎ |Sanju |3.6 seconds | | Run
 | ✔| ☀︎|Krish |4.2 seconds | | Run
 
+Top five run rate indicates the weather like S F F S S ==> indicates 60% success 3/5
+
+## Queuing of Job : Creating job by sequence 
+1. Upstream 
+2. Downstream 
+
+
+```mermaid
+graph TD;
+    Dev-->Test;
+    Test-->Prod;
+```
+
