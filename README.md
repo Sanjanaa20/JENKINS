@@ -40,6 +40,11 @@ All trigger are executable manually where it means by running of execution.
 1. Periodic trigger : build using cron job by scheduling the time.
 2. Remote trigger: building trigger remotely by using authentication token.
 
+## PLUG-INS
+Configuration->Security->Configure global security *Secure Jenkins define who is allowed to access/use the system.*
 
+### Role-Install plugin
+In authorization after installation of role it comes role based strategy.
+- Using roles we can create users and set permissions.
 
 
