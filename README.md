@@ -32,10 +32,14 @@ Top five run rate indicates the weather like S F F S S ==> indicates 60% success
 1. Upstream 
 2. Downstream 
 
+Dev→Test→Prod where - Dev's downstream is test and Test downstream is prod and upstream is Dev etc depending upon jobs created by users or root.
 
-```mermaid
-graph TD;
-    Dev-->Test;
-    Test-->Prod;
-```
+### Triggers
+All trigger are executable manually where it means by running of execution.
+- Automatic trigger
+1. Periodic trigger : build using cron job by scheduling the time.
+2. Remote trigger: building trigger remotely by using authentication token.
+
+
+
 
