@@ -10,9 +10,15 @@ Jenkins is the father of DevOps developed in 2005 by sun microsystem bought by O
 ##### Why Jenkins?
 - Highly configurable system by itself and known for its flexibility.
 ##### Uses
-• Generate test reports 
-• Integrate with many different version control systems.
-• Notify stakeholders with build status and deploys directly to production or test environments.
+- Generate test reports 
+- Integrate with many different version control systems.
+- Notify stakeholders with build status and deploys directly to production or test environments.
 
 #### Installation 
 Default installation in /var/lib/jenkins and to login get the password by /secrets/initialAdminPassword to unlock within the browser. Then install the add on Extensions to use the plugins.
+
+#### Procedure 
+1. After creating ==> freestyle project.
+2. Go to build ==> execute shell , command , build and save.
+
+
